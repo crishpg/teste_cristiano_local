@@ -5,6 +5,7 @@ headers = {'Accept': 'application/json'}
 #auth = ('username', 'userpass')
 print ('teste primeiro commit')
 print ('segundo commit')
+print ('esse commit vai ser publicado em homologacao')
 response = requests.get(url, headers=headers)
 
 with open('regioes.json', 'wb') as outf:
